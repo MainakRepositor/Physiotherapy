@@ -3052,5 +3052,6 @@ if checkbox_2:
         key='download-csv')
 
     with st.expander("Get a diet insight"):
-      <iframe src="https://gymfit.streamlit.app/" width="100%" height="600px"></iframe>
+      st.markdown('''<iframe src="https://gymfit.streamlit.app/" width="100%" height="600px"></iframe>''',unsafe_allow_html=True)
+      
 
