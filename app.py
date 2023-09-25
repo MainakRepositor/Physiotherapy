@@ -3050,3 +3050,7 @@ if checkbox_2:
         'workout.csv',
         'text/csv',
         key='download-csv')
+
+    with st.expander("Get a diet insight"):
+      <iframe src="https://gymfit.streamlit.app/" width="100%" height="600px"></iframe>
+
