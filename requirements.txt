@@ -1,0 +1,3 @@
+streamlit==1.23.1
+pandas==2.0.1
+streamlit_aggrid==0.3.4.post3
