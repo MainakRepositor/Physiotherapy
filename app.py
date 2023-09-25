@@ -22,7 +22,7 @@ st.set_page_config(page_title='Gym-X',
                    page_icon='💪', 
                    layout='wide')
 
-st.title('Exercise Library')
+st.title('Workout GYM-X')
 
 st.sidebar.header('⬇ Choose From Filters Below ⬇')
 
