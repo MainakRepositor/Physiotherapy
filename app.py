@@ -24,9 +24,6 @@ st.set_page_config(page_title='Gym-X',
 
 st.title('Workout GYM-X')
 
-with st.expander("Get a diet insight"):
-      st.markdown('''<iframe src="https://gymfit.streamlit.app/" width="100%" height="600px"></iframe>''',unsafe_allow_html=True)
-
 st.sidebar.header('⬇ Choose From Filters Below ⬇')
 
 muscle_group = st.sidebar.radio('Primary Muscle Group:', options = ['All', 'Abdominals', 'Abductors', 
