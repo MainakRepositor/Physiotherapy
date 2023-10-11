@@ -22,7 +22,7 @@ st.set_page_config(page_title='Gym-X',
                    page_icon='💪', 
                    layout='wide')
 
-st.title('Physiotherapy')
+st.title('Physiotherapy Exerciser')
 
 st.sidebar.header('⬇ Choose From Filters Below ⬇')
 
@@ -145,7 +145,7 @@ column_1, column_2, column_3 = st.columns(3)
 with column_1:
     checkbox_1 = st.checkbox('View Exercise Images', value = False)
 with column_2:
-    checkbox_2 = st.checkbox('Write Your Own Workout', value = False)
+    checkbox_2 = st.checkbox('Write Your Physiotherapy Exercises', value = False)
 
 if checkbox_1:
     column_4, column_5 = st.columns(2)
