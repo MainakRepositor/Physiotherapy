@@ -22,7 +22,7 @@ st.set_page_config(page_title='Gym-X',
                    page_icon='💪', 
                    layout='wide')
 
-st.title('Workout GYM-X')
+st.title('Physiotherapy')
 
 st.sidebar.header('⬇ Choose From Filters Below ⬇')
 
@@ -153,7 +153,7 @@ if checkbox_1:
     with column_4:
         selected_exercise = st.selectbox('Select Exercise:', options = options, index = 0)
 
-    st.header('Muscles Worked')
+    st.header('Muscles Affected')
     col_1, col_2, col_3 = st.columns(3)
 
 
@@ -2564,7 +2564,7 @@ if checkbox_1:
             st.image(demo_pics[240], width = 300)
 
 if checkbox_2:
-    st.header('My Workout:')
+    st.header('My Physiotherapy Exercises:')
     df_2 = pd.DataFrame({'Exercise': ['', '', '', '', '', '', '', '', '', '', '', ''], 
                     'Weight': ['', '', '', '', '', '', '', '', '', '', '', ''], 
                     'Sets': ['', '', '', '', '', '', '', '', '', '', '', ''],
@@ -2574,7 +2574,7 @@ if checkbox_2:
     num_exercises_col_1, num_exercises_col_2, num_exercises_col_3 = st.columns(3)
 
     with num_exercises_col_2:
-        num_exercises = st.number_input('Number of Exercises in Your Workout (12 max):', 
+        num_exercises = st.number_input('Number of Exercises in Your Physio Schedule (12 max):', 
                                         min_value = 1, max_value = 12, value = 1, step = 1)
     
     table_col_1, table_col_2, table_col_3, table_col_4, table_col_5 = st.columns(5)
@@ -3046,8 +3046,8 @@ if checkbox_2:
 
     st.download_button(
         'Download as CSV',
-        workout_to_csv,
-        'workout.csv',
+        physiotherapy_to_csv,
+        'physiotherapy.csv',
         'text/csv',
         key='download-csv')
 
