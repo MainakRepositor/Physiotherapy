@@ -18,8 +18,8 @@ equipment = ['Any', 'Atlas Stone', 'Barbell', 'Bodyweight',
              'Rope', 'Sandbag', 'Slamball', 'Sled', 'Specialized Machine',
              'Trap Bar', 'Wrist Roller']
 
-st.set_page_config(page_title='Gym-X', 
-                   page_icon='💪', 
+st.set_page_config(page_title='Physiotherapy', 
+                   page_icon='🧑‍⚕️', 
                    layout='wide')
 
 st.title('Physiotherapy Exerciser')
