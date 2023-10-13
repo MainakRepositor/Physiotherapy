@@ -3042,7 +3042,7 @@ if checkbox_2:
 
     user_workout = st.table(df_2)
     
-    workout_to_csv = df_2.to_csv(index=False).encode('utf-8')
+    physiotherapy_to_csv = df_2.to_csv(index=False).encode('utf-8')
 
     st.download_button(
         'Download as CSV',
